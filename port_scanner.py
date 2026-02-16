@@ -26,6 +26,7 @@ try:
             print(f"Port {port} is OPEN")
         s.close()
 
+
 except KeyboardInterrupt:
     print("\nScan interrupted.")
     exit()
